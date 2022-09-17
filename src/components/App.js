@@ -1,9 +1,9 @@
 import React from "react";
-import '../App.css';
 import { connect } from "react-redux";
 import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
 import { clearScreen, evaluate, deleteDigit } from "../actions";
+import '../App.css';
 
 class App extends React.Component{
 
