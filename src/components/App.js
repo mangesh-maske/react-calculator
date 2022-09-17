@@ -2,8 +2,8 @@ import React from "react";
 import '../App.css';
 import { connect } from "react-redux";
 import DigitButton from "./DigitButton";
-import { clearScreen, evaluate, deleteDigit } from "../actions";
 import OperationButton from "./OperationButton";
+import { clearScreen, evaluate, deleteDigit } from "../actions";
 
 class App extends React.Component{
 
